@@ -25,28 +25,9 @@ This project provides a crop recommendation system that analyzes environmental a
 
 3. Place the dataset (`Crop_recommendation.csv`) in the `dataset` folder.
 
-## Usage
 
-1. **Load Dataset**: The dataset can be loaded in CSV, Excel, or JSON format.
-   
-2. **Run Analysis**:
-    ```python
-    import pandas as pd
-    from your_code_file import load_data, analyze_data, visualize_missing_data
-    
-    # Load the data
-    data = load_data('dataset/Crop_recommendation.csv')
-
-    # Analyze the data
-    analyze_data(data)
-
-    # Visualize missing data
-    visualize_missing_data(data)
     ```
 
-## Files
-- `data_analysis.log`: Log file for tracking events and errors.
-- `analysis_results.txt`: Text file containing analysis results.
 
 ## Contributing
 
